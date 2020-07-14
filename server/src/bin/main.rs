@@ -2,7 +2,7 @@ use std::fs;
 use std::io::prelude::*;
 use std::net::{TcpListener, TcpStream};
 
-use server::ThreadPool;
+use server::thread_pool::ThreadPool;
 
 const THREAD_LIMIT: usize = 4;
 
